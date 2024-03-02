@@ -6,6 +6,7 @@ public class App {
 
         System.out.println("Hellor Wor!");
         System.out.println("lalala");
+        System.out.println("lalala");
     }
 
 }
