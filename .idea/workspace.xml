@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d094b00-a153-49c7-951f-7aab6f25d870" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/kur/project0/Proekt.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kur/project0/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kur/project0/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kur/project0/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kur/project0/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kur/project0/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kur/project0/HelloController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +65,7 @@
     "Application.HelloApplication.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -110,6 +113,7 @@
       <workItem from="1709401528102" duration="51000" />
       <workItem from="1709404868213" duration="47000" />
       <workItem from="1709404933281" duration="58000" />
+      <workItem from="1709451962683" duration="31000" />
     </task>
     <servers />
   </component>
