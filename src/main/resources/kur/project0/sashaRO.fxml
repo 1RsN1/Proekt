@@ -77,3 +77,25 @@
       <ButtonBar layoutX="245.0" layoutY="345.0" prefHeight="40.0" prefWidth="200.0" />
    </children>
 </AnchorPane>
+<AnchorPane layoutY="29.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="1440.0" style="-fx-background-color: #A8A7A7;">
+<effect>
+   <Lighting diffuseConstant="2.0" specularConstant="0.5" surfaceScale="2.0">
+      <bumpInput>
+         <Shadow height="40.0" radius="19.5" width="40.0">
+            <color>
+               <Color red="0.6549019813537598" green="0.658823549747467" blue="0.658823549747467" />
+            </color>
+         </Shadow>
+      </bumpInput>
+      <light>
+         <Light.Distant>
+            <color>
+               <Color red="0.8815789222717285" green="0.8693348169326782" blue="0.8693348169326782" />
+            </color>
+         </Light.Distant>
+      </light>
+   </Lighting>
+</effect></AnchorPane>
+<ButtonBar layoutX="245.0" layoutY="345.0" prefHeight="40.0" prefWidth="200.0" />
+        </children>
+        </AnchorPane>
