@@ -13,6 +13,10 @@ public class HelloController {
     Stage stage;
     @FXML
     AnchorPane scenePanel;
+    @FXML
+    AnchorPane scenePanel2;
+    @FXML
+    AnchorPane scenePanel1;
 
     public void logout(ActionEvent event) {
 
@@ -31,6 +35,10 @@ public class HelloController {
     }
     public void MaximizeWindow(ActionEvent event) {
         stage = (Stage) scenePanel.getScene().getWindow();
-        stage.setMaximized(true);
+        //stage.setMaximized(true);
+        stage.setWidth(1920);
+        stage = (Stage) scenePanel.getScene().getWindow();
+
+
     }
 }

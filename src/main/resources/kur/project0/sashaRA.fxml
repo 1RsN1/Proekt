@@ -2,7 +2,6 @@
 
 <?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.ButtonBar?>
 <?import javafx.scene.control.MenuButton?>
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.effect.Light.Distant?>
@@ -12,9 +11,9 @@
 <?import javafx.scene.paint.Color?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="scenePanel" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1440.0" style="-fx-background-color: D2D2D2;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kur.project0.HelloController">
+<AnchorPane fx:id="scenePanel" maxHeight="900.0" maxWidth="1920.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1440.0" style="-fx-background-color: D2D2D2;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kur.project0.HelloController">
    <children>
-      <AnchorPane layoutY="-1.0" prefHeight="30.0" prefWidth="1440.0" style="-fx-background-color: #121212;">
+      <AnchorPane fx:id="scenePanel1" layoutY="-1.0" maxWidth="1920.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="1440.0" style="-fx-background-color: #121212;">
          <children>
             <MenuButton contentDisplay="BOTTOM" graphicTextGap="1.0" layoutX="14.0" mnemonicParsing="false" style="-fx-background-color: #121212;" text="Инструменты" textAlignment="CENTER" textFill="WHITE">
               <items>
@@ -56,7 +55,7 @@
             <Button layoutX="1268.0" layoutY="2.0" mnemonicParsing="false" onAction="#MaximizeWindow" text="Button" />
          </children>
       </AnchorPane>
-      <AnchorPane layoutY="29.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="1440.0" style="-fx-background-color: #A8A7A7;">
+      <AnchorPane fx:id="scenePanel2" layoutY="29.0" maxHeight="1.7976931348623157E308" maxWidth="1920.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="1440.0" style="-fx-background-color: #A8A7A7;">
          <effect>
             <Lighting diffuseConstant="2.0" specularConstant="0.5" surfaceScale="2.0">
                <bumpInput>
@@ -75,6 +74,5 @@
                </light>
             </Lighting>
          </effect></AnchorPane>
-      <ButtonBar layoutX="245.0" layoutY="345.0" prefHeight="40.0" prefWidth="200.0" />
    </children>
 </AnchorPane>
