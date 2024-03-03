@@ -14,18 +14,23 @@ public class HelloController {
     @FXML
     AnchorPane scenePanel;
 
-    public void logout(ActionEvent event){
+    public void logout(ActionEvent event) {
 
-        
 
-       /* Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
+        Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
         alert.setTitle("Logout");
         alert.setHeaderText("You are about to logout!");
         alert.setContentText("Do you want to save before exiting?: ");
 
-        if(alert.showAndWait().get()== ButtonType.OK){
-            stage =(Stage) scenePanel.getScene().getWindow();
+        if (alert.showAndWait().get() == ButtonType.OK) {
+            stage = (Stage) scenePanel.getScene().getWindow();
             System.out.println("Successfully logged out!");
-            stage.close();}*/
+            stage.close();
+        }
 
-}}
+    }
+    public void MaximizeWindow(ActionEvent event) {
+        stage = (Stage) scenePanel.getScene().getWindow();
+        stage.setMaximized(true);
+    }
+}
